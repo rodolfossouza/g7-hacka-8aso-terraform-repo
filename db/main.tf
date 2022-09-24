@@ -24,3 +24,9 @@ resource "google_sql_user" "users" {
   instance = google_sql_database_instance.main.name
   password = var.db_password
 }
+
+# Cria o banco de dados
+resource "google_sql_database" "maindatabase" {
+  name     = "playlist"
+  instance = google_sql_database_instance.main.name
+}
