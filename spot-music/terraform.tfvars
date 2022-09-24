@@ -1,0 +1,15 @@
+project_id = "hack-aso-grupo-07"
+az = "us-central1-a"
+region = "us-central1"
+bucket_name = "hack-aso-grupo-07-bucket-tfstate"
+private_network_name = "g7-hacka-private-network"
+private_network_address_name = "g7-hacka-private-network-address"
+db_name = "g7-hacka-mysqldb"
+db_tier = "db-f1-micro"
+db_version = "MYSQL_8_0"
+db_user = "g7-hacka"
+db_password = "g7-hacka1234"
+registry_name = {
+  "front-registry-name" = "frontend-registry"
+  "back-registry-name"  = "backend-registry"
+}
